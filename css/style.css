@@ -1,4 +1,13 @@
 h1 {
-    background-color: aquamarine;
-    margin: 5px;
+  color: var(--main-color);
+  margin: 5px;
+  background-color: var(--fond-color);
+}
+body {
+  background-color: rgb(213, 249, 67);
+}
+.btn6:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px gray;
+  background-color: rgb(255, 255, 0);
 }
